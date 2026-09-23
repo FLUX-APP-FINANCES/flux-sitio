@@ -20,7 +20,19 @@ body {
   margin: 0 auto;
   padding: 48px 24px 96px;
 }
-header { margin-bottom: 40px; }
+header {
+  margin-bottom: 40px;
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+}
+/* El enlace al otro idioma. Va escrito en el idioma al que lleva ("English" en
+   las páginas en español y viceversa): quien no lee el idioma de esta página
+   tiene que poder reconocerlo igual. */
+.idioma {
+  font-size: .9rem; text-decoration: none; color: var(--texto-2);
+  border: 1px solid var(--borde); border-radius: 999px;
+  padding: 6px 14px; white-space: nowrap;
+}
+.idioma:hover { color: var(--acento); border-color: var(--acento); }
 .marca {
   display: inline-flex; align-items: center; gap: 10px;
   font-weight: 800; font-size: 1.25rem; text-decoration: none; color: var(--texto-1);
