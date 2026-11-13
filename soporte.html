@@ -28,13 +28,23 @@
   <h2>Preguntas frecuentes</h2>
 
   <h2 style="font-size:1rem">¿Flux puede leer mis mensajes?</h2>
-  <p>No. Flux no accede directamente a tus SMS. El registro automático funciona mediante una
-     <strong>Automatización de la app Atajos</strong> que tú creas: cuando llega un mensaje
-     de tu banco, esa automatización puede entregarle texto a Flux. Tú decides qué mensajes
-     la activan y puedes desactivarla cuando quieras.</p>
+  <p>Solo el texto que tú decides entregarle. Flux no tiene acceso a tu app de Mensajes ni a
+     tu correo: no puede abrirlos ni buscar en ellos. El registro automático funciona mediante
+     una <strong>Automatización de la app Atajos</strong> que tú creas: cuando llega un mensaje
+     de tu banco, esa automatización le entrega su texto a Flux, que lo lee dentro de tu
+     iPhone para sacar el monto y el comercio. Tú decides qué mensajes la activan y puedes
+     desactivarla cuando quieras.</p>
 
   <h2 style="font-size:1rem">¿Mis datos financieros están en algún servidor?</h2>
-  <p>No en servidores operados por Flux. Todo se guarda en tu iPhone.</p>
+  <p>No en servidores de Flux: no tenemos. Tus datos se guardan en tu iPhone y, si usas
+     iCloud, también en la base de datos privada de tu cuenta de iCloud, en servidores de
+     Apple. Flux no tiene acceso a esa información. Ten en cuenta que quien use tu mismo
+     Apple ID en otro dispositivo podrá ver esos datos en Flux.</p>
+  <p>Desde la versión 1.2, la sincronización con iCloud se activa sola si tu iPhone tiene
+     una sesión de iCloud. Si ya usabas Flux y tenías datos, no se sube nada hasta que la app
+     te lo avise una vez en pantalla. Si la región de tu App Store es China continental, Flux
+     no usa iCloud y todo se queda en tu iPhone. Los detalles están en la
+     <a href="privacidad.html">Política de privacidad</a>.</p>
 
   <h2 style="font-size:1rem">El registro automático dejó de detectar mis compras</h2>
   <p>Puede ocurrir si el banco cambia el formato de sus mensajes o si la automatización de
@@ -47,33 +57,69 @@
      fecha o la categoría, o para borrarlo.</p>
 
   <h2 style="font-size:1rem">¿Qué planes existen y cómo funciona la prueba Pro?</h2>
-  <p>Flux ofrece planes Pro mensual, semestral y anual. La prueba Pro dura 2 semanas y se ofrece
-     una sola vez por cuenta de Apple. Antes de suscribirte verás el precio y el ciclo de
+  <p>Flux ofrece planes Pro mensual, semestral y anual. Los planes empiezan con una prueba de
+     2 semanas gratis, que se ofrece una sola vez por cuenta de Apple: si cancelas antes de que
+     termine, no se te cobra nada. Antes de suscribirte verás el precio y el ciclo de
      facturación aplicables.</p>
 
   <h2 style="font-size:1rem">¿Cómo cancelo o cambio mi suscripción?</h2>
-  <p>Desde los ajustes de tu cuenta de Apple: <em>Ajustes → tu nombre → Suscripciones</em>.
-     Las suscripciones se renuevan automáticamente salvo que las canceles. La cancelación y
-     cualquier cambio de plan tienen efecto al final del período vigente. Apple gestiona los
-     cobros y reembolsos según sus propias políticas.</p>
+  <p>Desde los ajustes de tu cuenta de Apple: <em>Ajustes → tu nombre → Suscripciones →
+     Flux</em>. <strong>Borrar la app no cancela la suscripción.</strong> Las suscripciones se
+     renuevan automáticamente salvo que las canceles al menos 24 horas antes de que termine el
+     período. Si cancelas durante la prueba gratis, no se te cobra nada; si cancelas después,
+     conservas Pro hasta el final del período pagado. Los cambios de plan tienen efecto al
+     final del período vigente.</p>
+
+  <h2 style="font-size:1rem">¿Cómo pido un reembolso o me retracto de la compra?</h2>
+  <p>Tienes <strong>5 días hábiles</strong> desde el primer cobro para retractarte, o el plazo
+     de la ley de tu país si es mayor. El cobro lo hace Apple, así que el reembolso también lo
+     hace Apple: se pide en
+     <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>. Si te
+     retractaste dentro del plazo y Apple no te lo concede, escríbenos con la fecha del cobro:
+     presentamos el reclamo ante Apple en tu nombre y te contamos su respuesta.</p>
+
+  <h2 style="font-size:1rem">Quiero presentar un reclamo</h2>
+  <p>Escríbenos a <a href="mailto:soporte.flux.app@gmail.com">soporte.flux.app@gmail.com</a>
+     con tu nombre, lo que pasó y lo que pides. Normalmente respondemos en 2 a 3 días hábiles,
+     y siempre en un plazo máximo de 15 días hábiles. Si estás en Colombia y no quedas
+     satisfecho, puedes acudir a la Superintendencia de Industria y Comercio; si vives en otro
+     país, a la autoridad de protección al consumidor de tu país.</p>
 
   <h2 style="font-size:1rem">Cambié de iPhone, ¿pierdo mis datos?</h2>
-  <p>Flux todavía no sincroniza con iCloud, pero tus datos pasan al iPhone nuevo si lo
-     configuras con la transferencia directa desde el anterior o restaurando una copia de
-     seguridad —de iCloud o de tu computador—. Si lo configuras como un iPhone nuevo, sin
-     copia, los datos se quedan solo en el anterior.</p>
+  <p>No, si usas iCloud: desde la versión 1.2, inicia sesión con el mismo Apple ID en el
+     iPhone nuevo, deja iCloud activado para Flux y abre la app. Tus datos llegan solos; la
+     primera vez puede tardar unos minutos y necesitas conexión y espacio disponible en
+     iCloud. Mientras llegan, la app puede verse vacía o pedirte la configuración inicial: no
+     borres nada. Si no usas iCloud —o si la región de tu App Store es China continental—,
+     tus datos pasan al iPhone nuevo con la transferencia
+     directa desde el anterior o restaurando una copia de seguridad —de iCloud o de tu
+     computador—. El idioma, la moneda y la apariencia no se sincronizan: se escogen otra
+     vez.</p>
+
+  <h2 style="font-size:1rem">¿Cómo apago iCloud para Flux?</h2>
+  <p>En <em>Ajustes → tu nombre → iCloud</em>, en la lista de apps que usan iCloud, apaga
+     Flux. Desde ese momento, lo que registres se guarda solo en ese iPhone. Lo que ya estaba
+     en tu iCloud no se borra por apagarlo; puede que este iPhone deje de mostrarlo, pero sigue
+     en tu cuenta y vuelve si enciendes de nuevo iCloud para Flux. Si también quieres borrarlo,
+     mira la pregunta siguiente.</p>
 
   <h2 style="font-size:1rem">¿Cómo borro todos mis datos?</h2>
-  <p>En la app: <em>Perfil → Tus datos → Borrar todos mis datos</em>. Es inmediato e
-     irreversible. Las copias de seguridad de tu iPhone hechas antes pueden conservar esa
-     información hasta que se reemplacen.</p>
+  <p>En la app: <em>Perfil → Tus datos → Borrar todos mis datos</em>. No se puede deshacer.
+     Si iCloud está activo para Flux, el borrado también llega a tu iCloud y a tus otros
+     dispositivos con el mismo Apple ID cuando se conectan a internet; un dispositivo donde
+     hayas apagado iCloud para Flux conserva su copia hasta que la borres allí. Si ya apagaste
+     iCloud para Flux, borra la copia de tu iCloud en <em>Ajustes → tu nombre → iCloud →
+     Administrar almacenamiento → Flux</em>. Desinstalar la app no borra lo que está en tu
+     iCloud, ni cancela tu suscripción. Las copias de seguridad del iPhone hechas antes pueden
+     conservar esa información hasta que se reemplacen.</p>
 
   <h2 style="font-size:1rem">¿Cuánto tiempo conservan mi mensaje de soporte?</h2>
   <p>Los mensajes enviados a soporte se conservan hasta 90 días para atender tu caso y
      después se eliminan.</p>
 
   <div class="aviso">
-    <strong>Flux no da asesoría financiera.</strong> Es una herramienta para organizar y
+    <strong>Flux no da asesoría financiera</strong> y no es una entidad vigilada por la
+    Superintendencia Financiera. Es una herramienta para organizar y
     visualizar tu plata. No podemos aconsejarte sobre inversiones ni decisiones económicas.
   </div>
 
