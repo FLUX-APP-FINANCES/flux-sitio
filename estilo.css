@@ -62,6 +62,9 @@ footer {
   color: var(--texto-2); font-size: .9rem;
 }
 footer a { margin-right: 16px; }
+/* Botón oficial de App Store (badge de Apple, sin alterar). Va en la portada. */
+.descargar { display: inline-block; line-height: 0; margin: 4px 0 8px; }
+.descargar img { height: 40px; width: auto; }
 @media (prefers-color-scheme: dark) {
   :root {
     --fondo: #0b0d12; --superficie: #15171d; --texto-1: #f5f5f7;
